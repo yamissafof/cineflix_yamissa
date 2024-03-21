@@ -65,69 +65,51 @@ export default {
 
 <style>
 
-/* Styles de base pour le corps de la page */
-
 body {
   background-color: #282828;
-  font-family: Arial, sans-serif; /* Utiliser une police lisible */
-  margin: 0; /* Supprimer les marges par défaut du corps */
-  padding: 0; /* Supprimer le rembourrage par défaut du corps */
+  font-family: Calibri, sans-serif;
+  margin: 0;
+  padding: 0;
   color: white;
 }
 
-/* Styles pour le conteneur principal de l'application Vue */
-#app {
-  max-width: 800px; /* Limiter la largeur du conteneur principal */
-  margin: 0 auto; /* Centrer le conteneur sur la page */
-  padding: 20px; /* Ajouter un peu d'espace intérieur */
-}
-
-/* Styles pour les boutons */
 button {
-  background-color: #007bff; /* Couleur de fond du bouton */
-  color: white; /* Couleur du texte du bouton */
-  border: none; /* Supprimer la bordure du bouton */
-  padding: 10px 20px; /* Ajouter un peu d'espace intérieur */
-  cursor: pointer; /* Définir le curseur en pointeur pour indiquer l'interaction */
-  border-radius: 5px; /* Ajouter un peu de bord arrondi */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-/* Styles pour les boutons au survol */
 button:hover {
-  background-color: #0056b3; /* Couleur de fond modifiée au survol */
+  background-color: #0056b3;
 }
 
-/* Styles pour les entrées de texte */
 input[type="text"] {
-  padding: 10px; /* Ajouter un peu d'espace intérieur */
-  border-radius: 5px; /* Ajouter un peu de bord arrondi */
-  border: 1px solid #ccc; /* Ajouter une bordure légère */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
-/* Styles pour la liste des résultats */
 ul {
-  list-style: none; /* Supprimer les puces de la liste */
-  padding: 0; /* Supprimer le remplissage de la liste */
+  list-style: none;
+  padding: 0;
 }
 
-/* Styles pour les éléments de la liste */
 li {
-  margin-bottom: 20px; /* Ajouter un peu d'espace sous chaque élément */
-  border-bottom: 1px solid #ccc; /* Ajouter une bordure en bas de chaque élément */
-  padding-bottom: 20px; /* Ajouter un peu d'espace intérieur en bas de chaque élément */
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
 }
 
-/* Styles pour les titres des films */
 h3 {
-  margin-top: 0; /* Supprimer la marge supérieure des titres */
+  margin-top: 0;
 }
 
-/* Styles pour les images des films */
 .movie-image {
-  max-width: 200px; /* Limiter la largeur maximale de l'image à 200 pixels */
-  max-height: 300px; /* Limiter la hauteur maximale de l'image à 300 pixels */
+  max-width: 200px;
+  max-height: 300px;
 }
-
-
 
 </style>

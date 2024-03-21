@@ -3,6 +3,7 @@ import HomeView from '../components/AccueilCinema.vue'
 import Recherche from '../components/RechercheCinema.vue'
 
 
+
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
