@@ -10,12 +10,6 @@
           <p>{{ movie.overview }}</p>
           <img v-if="movie.poster_path" :src="'https://image.tmdb.org/t/p/w500/' + movie.poster_path" :alt="movie.title">
           <p v-else>Image non disponible</p>
-          <button @click="toggleDetails(movie)">Afficher les détails</button>
-          <div v-if="movie.showDetails">
-            <!-- Afficher les détails supplémentaires du film ici -->
-            <p>Date de sortie : {{ movie.release_date }}</p>
-            <p>Popularité : {{ movie.popularity }}</p>
-          </div>
         </li>
       </ul>
     </div>

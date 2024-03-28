@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../components/AccueilCinema.vue'
 import Recherche from '../components/RechercheCinema.vue'
+import DetailCinema from '../components/DetailCinema.vue'
 
 
 
@@ -16,6 +17,11 @@ const router = createRouter({
             path: '/recherche',
             name: 'recherche',
             component: Recherche
+        },
+        {
+            path: '/movie/:id',
+            name: 'MovieDetails',
+            component: DetailCinema
         },
 
 
